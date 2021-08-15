@@ -14,6 +14,7 @@ const Banner = ({profileDetails}) => {
                      <h1> Kudos! I'm {profileDetails.name}</h1>
                      <h3 id="paragarph1"> {profileDetails.position}</h3>
                      <h3 id="paragarph1"> {profileDetails.dept}</h3>
+                     <button className="button">Send Kudos!</button>
                  </section>
                      <section id="container-about" className="container-about">
                      <h1>About Me</h1> 

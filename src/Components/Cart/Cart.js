@@ -9,7 +9,6 @@ import { MDBIcon } from "mdbreact";
 import axios from "axios";
 import {BiCoinStack} from "react-icons/bi"
 
-const cartUrl = "http://localhost:8081/home/cart";
 
 const useStyles = makeStyles((theme) => ({
     root: {

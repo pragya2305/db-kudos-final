@@ -55,7 +55,7 @@ const Login=({token,setToken,setAuth,user,setUser,badgeId,badgeCount,setBadgeId,
       <div class="login-page">
           <div class="form">
             <section>
-             
+              <img src={dbImage} style={{ width: '65%', height: '65%' }} />
               <span><h4 style={{ fontWeight:"bolder"}}>DB Kudos</h4></span>
             </section>
     <form class="login-form" onSubmit={handleSubmit}>
